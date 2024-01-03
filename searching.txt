@@ -1,0 +1,52 @@
+import java.util.;
+
+class Array
+
+{
+
+	public static void main(String[] args) {
+  
+  Scanner.out.println(enter size of the array);
+ 
+   n=s.nextInt();
+
+    a=newInt(n);
+ 
+   System.out.println(enter elements);
+   
+ for(i=0;in;i++);
+
+    {
+     
+   a(i)=s.nextInt();
+
+    }
+    
+System.out.println(enter search elcments);
+
+    sno=s.nextInt();
+    
+int r=arrays.binarysearch(a,sno);
+   
+ if(r0);
+   
+ {
+     
+   System.out.println(search elements is not found);
+   
+ }
+   
+ else
+
+    {
+    
+    System.out.println(elements is found n position=+(r+1))
+   
+ }
+	
+
+
+ 
+
+
+
