@@ -1,0 +1,51 @@
+class student
+
+{
+  
+int admno;
+ 
+ String name;
+  
+void get(int x, String y)
+ 
+ {
+    
+admno=x;
+    
+name=y;
+ 
+ }
+  
+void show()
+
+{
+ 
+ System.out.println("Admission no="+admno+"Name="+name);
+
+}
+
+}
+
+class Test
+
+{
+  
+public static void main (String []args)
+
+{
+
+  student s1=new student();
+
+  s1.get(443,"sai");
+ 
+ s1.show();
+ 
+ student s2=new student();
+ 
+ s2.get(443,"charan");
+  
+s2.show();
+
+}
+
+}
