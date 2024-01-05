@@ -1,0 +1,87 @@
+class student
+
+{
+ 
+ int admno;
+  
+String name;
+ 
+ void get (int admno,String name)
+ 
+ {
+   
+ this.admno=admno;
+   
+ this.name=name;
+  
+}
+ 
+ void show()
+ 
+ {
+    
+System.out.println("Admission no="+admno);
+ 
+   System.out.println("Name="+name);
+ 
+ }
+
+}
+
+class marks extends student
+
+{
+  
+int edc,emtl,ac;
+ 
+ void getmarkes(int edc,int emtl,int ac)
+ 
+ {
+   
+ this.edc=edc;
+  
+  this.emtl=emtl;
+  
+  this.ac=ac;
+
+  }
+
+  void showmarkes()
+
+{
+  
+System.out.println("EDC="+edc);
+
+  System.out.println("EMTL="+emtl);
+ 
+ System.out.println("AC="+ac);
+ 
+ System.out.println("Total="+(edc+emtl+ac));
+ 
+ System.out.println("Average="+(edc+emtl+ac)/3);
+
+}
+
+}
+
+class Single
+
+{
+ 
+ public static void main(String[]args)
+ 
+ {
+   
+ marks m1=new marks();
+  
+  m1.get(443,"sai");
+ 
+   m1.get marks(89,90,98);
+   
+ m1.show();
+ 
+   m1.show marks();
+
+  }
+
+}
