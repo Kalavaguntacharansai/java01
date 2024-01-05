@@ -1,0 +1,64 @@
+class firstyear
+
+{
+  
+void branch()
+ 
+ {
+    
+System.out.println("ECE");
+ 
+ }
+ 
+ void Subjects()
+  
+{
+   
+ System.out.println("edc ee emtl");
+ 
+ }
+  
+void backlog()
+  
+{
+    
+System.out.println("emtl");
+
+  }
+
+}
+
+class secondyear
+
+{
+  
+void Subjects()
+  
+{
+   
+ firstyear f1=new firstyear();
+  
+  f1.branch();
+ 
+   f1.backlog();
+  
+  System.out.println("dld cs ac");
+  
+}
+}
+
+class Test
+
+{
+  
+public static void main (String[]args)
+
+  {
+   
+ secondyear s1=new secondyear();
+ 
+   s1.Subjects();
+  
+}
+
+}
