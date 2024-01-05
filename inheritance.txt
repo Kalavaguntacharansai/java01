@@ -1,0 +1,54 @@
+class first
+
+{
+  
+void m1()
+  
+{
+    
+System.out.println("m1 method in first class");
+
+  }
+  
+void m2()
+  
+{
+   
+System.out.println("m2 method in first class");
+
+  }
+
+}
+
+class second extends first
+{
+  void m3()
+ 
+ {
+    
+System.out.println("m3 method in second class");
+  
+}
+
+}
+
+class Test
+ 
+ {
+   
+ public static void main (String[] args)
+  
+  {
+     
+ second s1=new second();
+    
+  s1.m1();
+     
+ s1.m2();
+     
+ s1.m3();
+  
+  }
+  
+}
+
