@@ -1,32 +1,16 @@
 class Main
 {
-    void s1()
+    int a=10;
+    static int b=20;
+    public static void main(String[] args)
     {
-        System.out.println("s1 method in first class");
-    }
-    void s2()
-    {
-        System.out.println("s2 method in first class");
+        Main s1=new Main();
+        Main s2=new Main();
+        System.out.println(s1.a+" "+s1.b);
+        System.out.println(s2.a+" "+s2.b);
+        s1.a=888;
+        s2.a=999;
+       System.out.println(s1.a+" "+s1.b);
+       System.out.println(s2.a+" "+s2.b);
     }
 }
-  class Main2 extends Main1
-{
-    public static void main(String args[])
-    {
-       Main2
-       void s3()
-       {
-           System.out.println("s3 method in first class");
-       }
-    }
-    class Test
-    {
-        public static void main(String args[])
-        {
-            Main M1=new Main();
-            M1.s1();
-            M2.s2();
-            M3.s3();
-        }
-    }
-    }
